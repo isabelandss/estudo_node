@@ -1,0 +1,19 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <table border="1">
+            <tr>
+                <td>ID</td>
+                <td>Nome</td>
+            </tr>
+            <% for(var i = 0; i < lista.length; i++) {%>
+                <tr>
+                    <td><%= lista[i].id %></td>
+                    <td><%= lista[i].nome %></td>
+                </tr>
+            <% } %>
+        </table>
+    </body>
+</html>                
